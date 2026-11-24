@@ -7,6 +7,9 @@
 
 int main()
 {
+    srand(time(NULL));
+
+    std::cout << rand() << std::endl;
     std::cout << "Test ShrubberyCreationForm" << std::endl;
     ShrubberyCreationForm shrubbery("home");
     Bureaucrat intern("Intern", 150);
@@ -18,7 +21,6 @@ int main()
     manager.signAForm(shrubbery);
     manager.executeForm(shrubbery);
     gardener.executeForm(shrubbery);
-    std::remove("home_shrubbery");
     std::cout << std::endl;
 
     std::cout << "Test RobotomyRequestForm" << std::endl;
@@ -39,6 +41,7 @@ int main()
     clerk.signAForm(pardon);
     clerk.executeForm(pardon);
     president.executeForm(pardon);
+
 
     return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: lvargas- <lvargas-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/02 19:38:37 by lvargas-          #+#    #+#             */
-/*   Updated: 2026/08/02 19:59:27 by lvargas-         ###   ########.fr       */
+/*   Updated: 2026/11/24 17:10:12 by lvargas-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,11 @@ int main()
         std::cout << c << std::endl;
 
         b.incrementGrade();
+        b.decrementGrade();
+        b.decrementGrade();
+
+        std::cout << b << std::endl;
+
     }
     catch (std::exception & e)
     {

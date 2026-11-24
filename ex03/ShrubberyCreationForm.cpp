@@ -50,7 +50,7 @@ void ShrubberyCreationForm::execute(Bureaucrat const & executor) const
     file << "         6OuU  /p u gcoUodpP\n";
     file << "           \\\\\\//  /douUP\n";
     file << "               \\\\\\////\n";
-    file << "                |||/\\n";
+    file << "                |||/\\\n";
     file << "                |||/\\\n";
     file << "                |||||\n";
     file << "          .....//||||\\....\n";
